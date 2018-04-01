@@ -1,0 +1,278 @@
+body {
+  font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+  margin: 0;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 40px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+ 
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.clearfix { 
+  clear: both; 
+}
+
+header {
+  color: white;
+  background-color: rgb(36, 91, 123);
+}
+
+.build {
+  padding: 70px 20px 80px 30px;
+  background-image: url(images/city-scape.svg);
+  max-width: 100%;
+}
+
+.build a {
+  background-color: rgb(240, 146, 51);
+  text-decoration: none;
+  color: white;
+}
+
+.search {
+  padding: 20px;
+  width: 100%;
+}
+ 
+.centered {
+  margin: 0 auto;
+}
+
+.float-right {
+  float: right;
+}
+
+header a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.col {
+  float: left;
+}
+
+.col-10 {
+  width: 10%;
+}
+
+.col-70 {
+  width: 70%;
+}
+
+.col-70 input {
+  background-color: rgb(31, 82, 111);
+  height: 20px;
+  outline: none;
+  width: 90%;
+  font-size: 1em;
+  width: 90%;
+  padding: 15px 10px;
+  border-color: rgba(255,255,255,0.2);
+  border-width: 1px;
+  border-style: solid;
+  color: rgba(255,255,255,0.8);
+}
+
+#bear {
+  display: inline-block;
+  width: 40px;
+  height: auto;
+}
+
+.col-70 button {
+  font-size: 1em;
+  width: 5%;
+  background-color: rgb(31, 82, 111);
+  padding: 15px 0px;
+  border-color: rgba(255,255,255,0.2);
+  border-width: 1px;
+  border-style: solid;
+  color: rgba(255,255,255,0.8);
+  height: 52px;
+}
+
+.build-text {
+  width: 50%;
+  padding-left: 100px;
+  color: white;
+}
+
+.build-text h1 {
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.build-text p {
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.build-text a {
+  margin-top: 10px;
+  display: inline-block;
+  background-color: rgb(240, 146, 51);
+  border-radius: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  font-size: 17px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  padding: 8px 26px 8px 26px;
+  vertical-align: middle;
+}
+
+.darkback {
+  background-color: rgb(39, 53, 71);
+  max-width: 100%;
+  padding-top: 100px;
+  padding-bottom: 120px;
+  padding-left: 120px;
+}
+
+.col-2 {
+  width: 50%;
+  display: inline-block;
+}
+
+#collaboration {
+  color: white;
+}
+
+#collaboration li, p {
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.redbutton {
+  background-color: rgb(172, 46, 45);
+  color: white;
+  border-radius: 20px;
+  border-color: rgba(0, 0, 0, 0);
+  border-width: 1px;
+  border-style: solid;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 8px 26px;
+}
+
+#collaboration a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+#collaboration .float-right {
+  padding-left: 10px;
+}
+
+#what {
+  background-image: url(images/forklift.svg);
+  background-size: cover;
+  background-position: 50% 0;
+  padding: 60px 20px 180px 20px;
+}
+
+#what h2 {
+  font-size: 36px;
+  color: white;
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+#what p {
+font-size: 16px;
+color: white;
+margin-bottom: 10px;
+font-weight: 400;
+padding: 10px 0;
+}
+
+.what {
+  margin: 40px 50px 20px 0px;
+  padding: 0 100px;  
+}
+
+.darkbutton {
+  background-color: rgb(40, 56, 72);
+  color: white;
+  border-radius: 20px;
+  border-color: rgba(0, 0, 0, 0);
+  border-width: 1px;
+  border-style: solid;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 8px 26px;
+  text-decoration: none;
+}
+
+.col-3 {
+  width: 33%;
+}
+
+.blocks h2 {
+  color: rgb(55, 61, 72);
+  font-size: 36px;
+  font-weight: 300;
+  margin: 20px 0;
+  padding: 4px 0;
+  text-align: center;
+}
+
+.blocks p {
+  color: rgb(109, 121, 134);
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+article img {
+  display: block;
+  margin: auto;
+}
+
+article p {
+  color: rgb(109, 121, 134);
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+article h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(55, 61, 72);
+  margin: 10px 0;
+  text-align: center;
+}
+
+.centered-blocks {
+  margin: 0 auto;
+  width: 70%
+}
